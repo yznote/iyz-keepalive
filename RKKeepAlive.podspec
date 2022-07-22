@@ -24,15 +24,15 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Yuan920/iyz-keepalive'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'yuan' => 'yzyuan920@163.com' }
+  s.author           = { 'Yuan920' => 'yzyuan920@163.com' }
   s.source           = { :git => 'https://github.com/Yuan920/iyz-keepalive.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'RKKeepAlive/Classes/**/*'
+  s.source_files = 'iyz-keepalive/RKKeepAlive/Classes/**/*'
   
-  s.vendored_frameworks = "RKKeepAlive/Frameworks/RKKeepAlive.framework"
+  s.vendored_frameworks = "iyz-keepalive/RKKeepAlive/Frameworks/RKKeepAlive.framework"
   # s.resource_bundles = {
   #   'RKKeepAlive' => ['RKKeepAlive/Assets/*.png']
   # }
