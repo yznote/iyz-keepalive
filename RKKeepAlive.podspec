@@ -30,9 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'iyz-keepalive/RKKeepAlive/Classes/**/*'
+  s.source_files = 'RKKeepAlive/Classes/**/*'
   
-  s.vendored_frameworks = "iyz-keepalive/RKKeepAlive/Frameworks/RKKeepAlive.framework"
+  s.vendored_frameworks = "RKKeepAlive/Frameworks/RKKeepAlive.framework"
   # s.resource_bundles = {
   #   'RKKeepAlive' => ['RKKeepAlive/Assets/*.png']
   # }
