@@ -1,0 +1,16 @@
+PODS:
+  - RKKeepAlive (0.1.0)
+
+DEPENDENCIES:
+  - RKKeepAlive (from `../`)
+
+EXTERNAL SOURCES:
+  RKKeepAlive:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RKKeepAlive: 3d7041a550ed4bc8b4e2626f316c9b39af02220c
+
+PODFILE CHECKSUM: c63b342c2d0945fdbf784d6b09e7a8948e396661
+
+COCOAPODS: 1.11.2
