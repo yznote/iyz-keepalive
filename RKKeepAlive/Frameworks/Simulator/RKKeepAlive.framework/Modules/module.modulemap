@@ -1,6 +1,0 @@
-framework module RKKeepAlive {
-  umbrella header "RKKeepAlive.h"
-
-  export *
-  module * { export * }
-}
