@@ -6,13 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		4895FBDBE5F20B7B5F75904B98BF531D /* RKKeepAlive */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6379730CADF7FEBE3EE02F91FE4BD929 /* Build configuration list for PBXAggregateTarget "RKKeepAlive" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = RKKeepAlive;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		71A7BF293F93A4B6A1A37BFE7BA19D1B /* RKKeepAlive-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E1556B27008BCD422A4A271DEDCA057 /* RKKeepAlive-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79D84E7EC0059A5A2DFE6CDD7CB95C7A /* RKKeepAlive-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E354A63A365A152FE790C527C11C43AE /* RKKeepAlive-dummy.m */; };
 		7D7F776321850EAD4238E0FC46473C87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A7EC74F2B2DE9E9C8DB1CC3E7794D584 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		AAB283B6D0FB24CB421200DA25504B41 /* Pods-RKKeepAlive_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7E76DCD8F084FFC8CB05EA793FBDF30 /* Pods-RKKeepAlive_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC0EF28AB26FAE1E8761A602A1228FD8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 48379E7E784F8A9071C7258DA91A72CF /* ReplaceMe.m */; };
 		CFE35EFEA8C82FDD611A5C020DA8700F /* Pods-RKKeepAlive_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F29D79DDD00B2ADFE3339952EF7757F /* Pods-RKKeepAlive_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDABDE90C79651FBE34BBC44A7B9D521 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F3433CD0281ECB80ED1B01D6084B9EDA /* Pods-RKKeepAlive_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB780DCD37D2A863EBFEA2DFF04E3BE3 /* Pods-RKKeepAlive_Example-dummy.m */; };
@@ -20,57 +28,49 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0E654EA2EBDDFB3530A9D9E4EEC7B0CC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 226A931FA3C662C4F53E3021EDB87BCF;
-			remoteInfo = "Pods-RKKeepAlive_Example";
-		};
-		E5548E2253B0065B67A0F8A1079243C9 /* PBXContainerItemProxy */ = {
+		267194840BBEE8504689D5F8F3ABF9A2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 4895FBDBE5F20B7B5F75904B98BF531D;
 			remoteInfo = RKKeepAlive;
 		};
+		C60BF2B31236827479301255B1346113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 226A931FA3C662C4F53E3021EDB87BCF;
+			remoteInfo = "Pods-RKKeepAlive_Example";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07D085D1E4E893E1DFC896BAFC64B1AA /* RKKeepAlive-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RKKeepAlive-Info.plist"; sourceTree = "<group>"; };
-		0F893654E1C6A773D95BA2D6450F0E8C /* RKKeepAlive.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RKKeepAlive.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1717B2038727E782CA987369D97B955D /* Pods-RKKeepAlive_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKKeepAlive_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1F303649B578678C5A5970E4765C9A82 /* Pods-RKKeepAlive_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RKKeepAlive_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		21F45C9BD742230198576785126BB79B /* RKKeepAlive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RKKeepAlive.framework; path = RKKeepAlive/Frameworks/RKKeepAlive.framework; sourceTree = "<group>"; };
 		2F29D79DDD00B2ADFE3339952EF7757F /* Pods-RKKeepAlive_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKKeepAlive_Tests-umbrella.h"; sourceTree = "<group>"; };
-		35DBD2ABA53ACDB165E7611DE625E215 /* RKKeepAlive */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RKKeepAlive; path = RKKeepAlive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		48379E7E784F8A9071C7258DA91A72CF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = RKKeepAlive/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		3DFB3EB2C5D39118F874068ECF9DFDC6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4E140FC04AA91AEB52E8DDE9EE83E03C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4E78C6CCB1545CDC52DA20225B62AB1F /* Pods-RKKeepAlive_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKKeepAlive_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5220DD3AD97D0D12FC6ADE3CE83B30BF /* Pods-RKKeepAlive_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKKeepAlive_Example-Info.plist"; sourceTree = "<group>"; };
 		5340BB5A003D53384E063E13997F070A /* Pods-RKKeepAlive_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RKKeepAlive_Example-frameworks.sh"; sourceTree = "<group>"; };
-		57DD08DED7C1A9F4AF032CFA07E1E75C /* RKKeepAlive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RKKeepAlive.modulemap; sourceTree = "<group>"; };
 		5A2854E597F14AC95E13B7D45E967223 /* Pods-RKKeepAlive_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKKeepAlive_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6E1556B27008BCD422A4A271DEDCA057 /* RKKeepAlive-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKKeepAlive-umbrella.h"; sourceTree = "<group>"; };
 		7298F86E1AC293BC80498A03D462096C /* Pods-RKKeepAlive_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RKKeepAlive_Example"; path = Pods_RKKeepAlive_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73787527CBFAEC86E11C07D5F4653F75 /* Pods-RKKeepAlive_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKKeepAlive_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		78661D73EAB2BA89C786F004A61DB506 /* Pods-RKKeepAlive_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RKKeepAlive_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7C42FB43122B48010215454D036C2693 /* RKKeepAlive-copy-dsyms.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "RKKeepAlive-copy-dsyms.sh"; sourceTree = "<group>"; };
+		85678B2CC9693D39BA0B4A0585864C24 /* RKKeepAlive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RKKeepAlive.framework; path = RKKeepAlive/Frameworks/RKKeepAlive.framework; sourceTree = "<group>"; };
+		8696025FA6551D20128F11CCDF23F5A7 /* RKKeepAlive.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RKKeepAlive.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8E5B1325175C67B30275AF01441B3C28 /* Pods-RKKeepAlive_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RKKeepAlive_Tests.modulemap"; sourceTree = "<group>"; };
 		9D012B91F16AB459D04A19679AC4D51A /* Pods-RKKeepAlive_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RKKeepAlive_Example.modulemap"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A195E172D558D73E933799ADAAF33574 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A5D91CB8EF8197BE4C7FDB5371AAEB3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AB780DCD37D2A863EBFEA2DFF04E3BE3 /* Pods-RKKeepAlive_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RKKeepAlive_Example-dummy.m"; sourceTree = "<group>"; };
 		C3B3DBA544DA9166C8E04C8CBF62D863 /* Pods-RKKeepAlive_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RKKeepAlive_Tests-Info.plist"; sourceTree = "<group>"; };
 		C79150407C8E39229C63E8146F405866 /* Pods-RKKeepAlive_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKKeepAlive_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D00CC33E4F38A11C59C640D8E666FC96 /* RKKeepAlive-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RKKeepAlive-prefix.pch"; sourceTree = "<group>"; };
 		D73D1885E779E7B7B14BF73CDA78123D /* Pods-RKKeepAlive_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RKKeepAlive_Tests"; path = Pods_RKKeepAlive_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D854F8D1C5B41DE462EDEFE825D485EF /* RKKeepAlive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKKeepAlive.debug.xcconfig; sourceTree = "<group>"; };
 		E0F0E496F2FABBDBC7C7B05F2C4C08AB /* Pods-RKKeepAlive_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RKKeepAlive_Tests-dummy.m"; sourceTree = "<group>"; };
-		E354A63A365A152FE790C527C11C43AE /* RKKeepAlive-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RKKeepAlive-dummy.m"; sourceTree = "<group>"; };
+		E58D081E9741496A6586F53318FFE60C /* RKKeepAlive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKKeepAlive.release.xcconfig; sourceTree = "<group>"; };
 		EC0B4C5010F7410F6EB080CFC8061AB2 /* Pods-RKKeepAlive_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RKKeepAlive_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F5C8BDEA45D85C086E041AF1642E8268 /* RKKeepAlive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKKeepAlive.release.xcconfig; sourceTree = "<group>"; };
+		F6F8AEBD514842ED6E2A1EDC65A2D220 /* RKKeepAlive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RKKeepAlive.debug.xcconfig; sourceTree = "<group>"; };
 		F7E76DCD8F084FFC8CB05EA793FBDF30 /* Pods-RKKeepAlive_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RKKeepAlive_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,23 +91,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E91086038528E5BDAC1F225CDF78460E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7EC74F2B2DE9E9C8DB1CC3E7794D584 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F204729131C8156D698CAF99C8BDD0C /* Development Pods */ = {
+		43C386016A361BC472B3B0DF2BC420EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D3B2B02EC6BB33A2DCC2D4E068AC62F0 /* RKKeepAlive */,
+				F6F8AEBD514842ED6E2A1EDC65A2D220 /* RKKeepAlive.debug.xcconfig */,
+				E58D081E9741496A6586F53318FFE60C /* RKKeepAlive.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RKKeepAlive";
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -118,30 +112,13 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		66B52516CB3EA545587158D59B0BA596 /* Products */ = {
+		627093B07C8A9BBE704C6F0F6D469CFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				7298F86E1AC293BC80498A03D462096C /* Pods-RKKeepAlive_Example */,
 				D73D1885E779E7B7B14BF73CDA78123D /* Pods-RKKeepAlive_Tests */,
-				35DBD2ABA53ACDB165E7611DE625E215 /* RKKeepAlive */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		7366BA63C5B24FDDE2D70E4389788AA5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				57DD08DED7C1A9F4AF032CFA07E1E75C /* RKKeepAlive.modulemap */,
-				7C42FB43122B48010215454D036C2693 /* RKKeepAlive-copy-dsyms.sh */,
-				E354A63A365A152FE790C527C11C43AE /* RKKeepAlive-dummy.m */,
-				07D085D1E4E893E1DFC896BAFC64B1AA /* RKKeepAlive-Info.plist */,
-				D00CC33E4F38A11C59C640D8E666FC96 /* RKKeepAlive-prefix.pch */,
-				6E1556B27008BCD422A4A271DEDCA057 /* RKKeepAlive-umbrella.h */,
-				D854F8D1C5B41DE462EDEFE825D485EF /* RKKeepAlive.debug.xcconfig */,
-				F5C8BDEA45D85C086E041AF1642E8268 /* RKKeepAlive.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RKKeepAlive";
 			sourceTree = "<group>";
 		};
 		7D4B7DF57F8825C3F1D4DA6D02DBEA23 /* Targets Support Files */ = {
@@ -153,14 +130,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A1D5E48E0A0A522278AF30E41A267A6B /* Pod */ = {
+		AA2D6D800C07B2CB37E231BBEDF4AA66 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A195E172D558D73E933799ADAAF33574 /* LICENSE */,
-				A5D91CB8EF8197BE4C7FDB5371AAEB3F /* README.md */,
-				0F893654E1C6A773D95BA2D6450F0E8C /* RKKeepAlive.podspec */,
+				C50E6A6972ADFB4469CD2318A399BC68 /* RKKeepAlive */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B687900DA427368B58BBC44BC6C30D23 /* Pods-RKKeepAlive_Example */ = {
@@ -180,13 +155,24 @@
 			path = "Target Support Files/Pods-RKKeepAlive_Example";
 			sourceTree = "<group>";
 		};
+		C50E6A6972ADFB4469CD2318A399BC68 /* RKKeepAlive */ = {
+			isa = PBXGroup;
+			children = (
+				F76C0D26C3EDD548D7B74324E93B5792 /* Frameworks */,
+				F8688FE48D746A6E69827DF3B9A4B5A2 /* Pod */,
+				43C386016A361BC472B3B0DF2BC420EA /* Support Files */,
+			);
+			name = RKKeepAlive;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				2F204729131C8156D698CAF99C8BDD0C /* Development Pods */,
+				AA2D6D800C07B2CB37E231BBEDF4AA66 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				66B52516CB3EA545587158D59B0BA596 /* Products */,
+				627093B07C8A9BBE704C6F0F6D469CFA /* Products */,
 				7D4B7DF57F8825C3F1D4DA6D02DBEA23 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -197,18 +183,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D3B2B02EC6BB33A2DCC2D4E068AC62F0 /* RKKeepAlive */ = {
-			isa = PBXGroup;
-			children = (
-				48379E7E784F8A9071C7258DA91A72CF /* ReplaceMe.m */,
-				F9599316FCD179608459AE809D40F024 /* Frameworks */,
-				A1D5E48E0A0A522278AF30E41A267A6B /* Pod */,
-				7366BA63C5B24FDDE2D70E4389788AA5 /* Support Files */,
-			);
-			name = RKKeepAlive;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		E4FAA99F6F53E30456BFAEF6BEC44C7D /* Pods-RKKeepAlive_Tests */ = {
@@ -227,12 +201,22 @@
 			path = "Target Support Files/Pods-RKKeepAlive_Tests";
 			sourceTree = "<group>";
 		};
-		F9599316FCD179608459AE809D40F024 /* Frameworks */ = {
+		F76C0D26C3EDD548D7B74324E93B5792 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				21F45C9BD742230198576785126BB79B /* RKKeepAlive.framework */,
+				85678B2CC9693D39BA0B4A0585864C24 /* RKKeepAlive.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8688FE48D746A6E69827DF3B9A4B5A2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3DFB3EB2C5D39118F874068ECF9DFDC6 /* LICENSE */,
+				4E140FC04AA91AEB52E8DDE9EE83E03C /* README.md */,
+				8696025FA6551D20128F11CCDF23F5A7 /* RKKeepAlive.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,14 +238,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E874BD22327519E34F8AE3F284313420 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				71A7BF293F93A4B6A1A37BFE7BA19D1B /* RKKeepAlive-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -277,7 +253,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				35B7D680047EA9101EA1764FC20E7B46 /* PBXTargetDependency */,
+				B200C469FF52BA3F1E7D70DF09913C35 /* PBXTargetDependency */,
 			);
 			name = "Pods-RKKeepAlive_Tests";
 			productName = Pods_RKKeepAlive_Tests;
@@ -296,30 +272,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				6296D71AACED514DFF2B05175BC8D0E5 /* PBXTargetDependency */,
+				B7E88D452BC6FC0D90188BE702B23D0F /* PBXTargetDependency */,
 			);
 			name = "Pods-RKKeepAlive_Example";
 			productName = Pods_RKKeepAlive_Example;
 			productReference = 7298F86E1AC293BC80498A03D462096C /* Pods-RKKeepAlive_Example */;
-			productType = "com.apple.product-type.framework";
-		};
-		4895FBDBE5F20B7B5F75904B98BF531D /* RKKeepAlive */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 40C1BA86DE252AC224B013A68F523938 /* Build configuration list for PBXNativeTarget "RKKeepAlive" */;
-			buildPhases = (
-				E874BD22327519E34F8AE3F284313420 /* Headers */,
-				0CFA5D6848D4F1AAC0D45D61E79216D1 /* Sources */,
-				E91086038528E5BDAC1F225CDF78460E /* Frameworks */,
-				E2B17C74871B2D6CA375C8B85E9B22BB /* Resources */,
-				64E03CCBDFFCDD56EB9C29681A8F656B /* [CP] Copy dSYMs */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = RKKeepAlive;
-			productName = RKKeepAlive;
-			productReference = 35DBD2ABA53ACDB165E7611DE625E215 /* RKKeepAlive */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -340,7 +297,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 66B52516CB3EA545587158D59B0BA596 /* Products */;
+			productRefGroup = 627093B07C8A9BBE704C6F0F6D469CFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -366,45 +323,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E2B17C74871B2D6CA375C8B85E9B22BB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		64E03CCBDFFCDD56EB9C29681A8F656B /* [CP] Copy dSYMs */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/../../RKKeepAlive/Frameworks/RKKeepAlive.framework.dSYM",
-			);
-			name = "[CP] Copy dSYMs";
-			outputPaths = (
-				"${DWARF_DSYM_FOLDER_PATH}/RKKeepAlive.framework.dSYM",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/RKKeepAlive/RKKeepAlive-copy-dsyms.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0CFA5D6848D4F1AAC0D45D61E79216D1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC0EF28AB26FAE1E8761A602A1228FD8 /* ReplaceMe.m in Sources */,
-				79D84E7EC0059A5A2DFE6CDD7CB95C7A /* RKKeepAlive-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1EB580D56AFC7E4DBE234AAE2CB571CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,17 +345,17 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		35B7D680047EA9101EA1764FC20E7B46 /* PBXTargetDependency */ = {
+		B200C469FF52BA3F1E7D70DF09913C35 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-RKKeepAlive_Example";
 			target = 226A931FA3C662C4F53E3021EDB87BCF /* Pods-RKKeepAlive_Example */;
-			targetProxy = 0E654EA2EBDDFB3530A9D9E4EEC7B0CC /* PBXContainerItemProxy */;
+			targetProxy = C60BF2B31236827479301255B1346113 /* PBXContainerItemProxy */;
 		};
-		6296D71AACED514DFF2B05175BC8D0E5 /* PBXTargetDependency */ = {
+		B7E88D452BC6FC0D90188BE702B23D0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = RKKeepAlive;
 			target = 4895FBDBE5F20B7B5F75904B98BF531D /* RKKeepAlive */;
-			targetProxy = E5548E2253B0065B67A0F8A1079243C9 /* PBXContainerItemProxy */;
+			targetProxy = 267194840BBEE8504689D5F8F3ABF9A2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -470,6 +391,21 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2AD90F0CA396D69B9FC8FCFD2B863476 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E58D081E9741496A6586F53318FFE60C /* RKKeepAlive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -602,68 +538,19 @@
 			};
 			name = Release;
 		};
-		870B72F1ED95A5AE57602CF4143F3539 /* Debug */ = {
+		C23B23E8BDEAA9AEB48BDCA2EDBA72FA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D854F8D1C5B41DE462EDEFE825D485EF /* RKKeepAlive.debug.xcconfig */;
+			baseConfigurationReference = F6F8AEBD514842ED6E2A1EDC65A2D220 /* RKKeepAlive.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RKKeepAlive/RKKeepAlive-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RKKeepAlive/RKKeepAlive-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RKKeepAlive/RKKeepAlive.modulemap";
-				PRODUCT_MODULE_NAME = RKKeepAlive;
-				PRODUCT_NAME = RKKeepAlive;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		B5B392BDCE95D12D64EBFEEC89803EE5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5C8BDEA45D85C086E041AF1642E8268 /* RKKeepAlive.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RKKeepAlive/RKKeepAlive-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RKKeepAlive/RKKeepAlive-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RKKeepAlive/RKKeepAlive.modulemap";
-				PRODUCT_MODULE_NAME = RKKeepAlive;
-				PRODUCT_NAME = RKKeepAlive;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -767,20 +654,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40C1BA86DE252AC224B013A68F523938 /* Build configuration list for PBXNativeTarget "RKKeepAlive" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				870B72F1ED95A5AE57602CF4143F3539 /* Debug */,
-				B5B392BDCE95D12D64EBFEEC89803EE5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
 				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6379730CADF7FEBE3EE02F91FE4BD929 /* Build configuration list for PBXAggregateTarget "RKKeepAlive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C23B23E8BDEAA9AEB48BDCA2EDBA72FA /* Debug */,
+				2AD90F0CA396D69B9FC8FCFD2B863476 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
