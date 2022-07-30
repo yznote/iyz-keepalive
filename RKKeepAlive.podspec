@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKKeepAlive'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'iyz test obj.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  # s.source_files = 'RKKeepAlive/Classes/**/*'
+  s.source_files = 'RKKeepAlive/Classes/**/*'
   
   s.vendored_frameworks = "RKKeepAlive/Frameworks/RKKeepAlive.framework"
   # s.resource_bundles = {
