@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
 
   # s.source_files = 'RKKeepAlive/Classes/**/*'
   
-  s.vendored_frameworks = 'RKKeepAlive/Frameworks/Device/RKKeepAlive.framework','RKKeepAlive/Frameworks/Simulator/RKKeepAlive.framework'
+  s.vendored_frameworks = 'RKKeepAlive/Frameworks/Device/RKKeepAlive.framework'
   # s.resource_bundles = {
   #   'RKKeepAlive' => ['RKKeepAlive/Assets/*.png']
   # }
