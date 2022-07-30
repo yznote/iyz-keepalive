@@ -22,7 +22,7 @@ pod 'RKKeepAlive'
 
 ## Author
 
-Yuan920, yzyuan920@163.com
+yuan, yzyuan920@163.com
 
 ## License
 

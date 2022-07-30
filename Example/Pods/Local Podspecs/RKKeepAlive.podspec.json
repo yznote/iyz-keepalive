@@ -1,22 +1,23 @@
 {
   "name": "RKKeepAlive",
   "version": "0.1.0",
-  "summary": "A short description of RKKeepAlive.",
+  "summary": "iyz test obj.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yuan/RKKeepAlive",
+  "homepage": "https://github.com/Yuan920/iyz-keepalive",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "yuan": "yzyuan920@163.com"
+    "Yuan920": "yzyuan920@163.com"
   },
   "source": {
-    "git": "https://github.com/yuan/RKKeepAlive.git",
+    "git": "https://github.com/Yuan920/iyz-keepalive.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "RKKeepAlive/Classes/**/*"
+  "source_files": "RKKeepAlive/Classes/**/*",
+  "vendored_frameworks": "RKKeepAlive/Frameworks/RKKeepAlive.framework"
 }
