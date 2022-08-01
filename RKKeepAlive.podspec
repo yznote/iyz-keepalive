@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RKKeepAlive'
-  s.version          = '0.1.11'
+  s.version          = '0.1.12'
   s.summary          = 'iyz test obj.'
 
 # This description is used to generate tags and improve search results.
@@ -33,6 +33,8 @@ TODO: Add long description of the pod here.
   # s.source_files = 'RKKeepAlive/Classes/**/*'
   
   s.vendored_frameworks = 'RKKeepAlive/Frameworks/RKKeepAlive.framework'
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   # s.resource_bundles = {
   #   'RKKeepAlive' => ['RKKeepAlive/Assets/*.png']
   # }
