@@ -1,5 +1,5 @@
 PODS:
-  - RKKeepAlive (0.1.6)
+  - RKKeepAlive (0.1.12)
 
 DEPENDENCIES:
   - RKKeepAlive (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RKKeepAlive: df45695eddcb4c5dee78a5fbc2928de5866050ff
+  RKKeepAlive: 2533709b3aab30d6b9a75da81dc089a04ba1d54c
 
 PODFILE CHECKSUM: c63b342c2d0945fdbf784d6b09e7a8948e396661
 
