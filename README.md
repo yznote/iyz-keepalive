@@ -17,12 +17,12 @@ RKKeepAlive is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RKKeepAlive'
+pod 'RKKeepAlive', '~> 0.1.15'
 ```
 
 ## Author
 
-Yuan920, yzyuan920@163.com
+yuan920, yzyuan920@163.com
 
 ## License
 
