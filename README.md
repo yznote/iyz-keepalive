@@ -20,16 +20,14 @@ it, simply add the following line to your Podfile:
 pod 'RKKeepAlive', '~> 0.1.15'
 ```
 
+### Make it work
+1. #import <RKKeepAlive/RKKeepAlive.h>
+2. start
 ```ruby
-// Make it work
-
-#import <RKKeepAlive/RKKeepAlive.h>
-
 [[RKKeepAlive sharedKeepInstance] startAppLifeCycleMonitor];
 
-// show logs
+# show logs
 [[RKKeepAlive sharedKeepInstance] showLog:YES];
-
 ```
 
 ## Author
