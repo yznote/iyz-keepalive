@@ -18,7 +18,7 @@
  * 默认不显示
  */
 -(void)showLog:(BOOL)showLog;
-
+-(void)showVerboseLog:(BOOL)verboseLog;
 /**
  * 测试:运行时间弹窗
  * 注意需要先设置`showLog:`为YES才有效
