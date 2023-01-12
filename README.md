@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/RKKeepAlive.svg?style=flat)](https://cocoapods.org/pods/RKKeepAlive)
 [![License](https://img.shields.io/cocoapods/l/RKKeepAlive.svg?style=flat)](https://cocoapods.org/pods/RKKeepAlive)
 [![Platform](https://img.shields.io/cocoapods/p/RKKeepAlive.svg?style=flat)](https://cocoapods.org/pods/RKKeepAlive)
+[![Security Status](https://www.murphysec.com/platform3/v3/badge/1612403514475589632.svg?t=1)](https://www.murphysec.com/accept?code=97d61b2a7832116ff93cbf101eef71cb&type=1&from=2&t=2)
 
 ## Example
 
